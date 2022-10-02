@@ -1,0 +1,891 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{% static 'enroll/css/all.min.css' %}">
+  <link rel="stylesheet" href="{% static 'enroll/css/style.css' %}">
+  <title>SchoolPro</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- container section 1 start-->
+    <div class="container-fluid"
+      style="background:url(https://thumbs.dreamstime.com/b/funny-child-school-girl-yellow-background-144861736.jpg); background-size: 73rem 50rem; background-repeat: no-repeat; padding-bottom:15rem;">
+      <!-- first row -->
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-size: 40px; padding-right:20px;">E-PORA.</a>
+              <!-- home......etc -->
+              <div class="collapse navbar-collapse wrapper" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home<svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg></a>
+                    <ul class="mt-2 text-center"
+                      style="list-style:none;z-index:3;  background: white;padding-left:0; position:absolute;">
+                      <li><a href="#" style="text-decoration: none; color:black;">Home 01</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Home 02</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Home 03</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="#">Page<svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg></a>
+                    <ul class="mt-2 text-center"
+                      style="list-style: none;z-index:3;  background: white;padding-left:0; position:absolute; width:130px;">
+                      <li><a href="#" style="text-decoration: none;color:black;">About</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Contact</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">FAQ</a></li>
+                      <li><a href="#" style="text-decoration: none;color:black;">Shop</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Shop Details</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Sign In</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Shoping Chart</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Checkout</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Wishlist</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Become A Teacher</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Instructor<svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg></a>
+                    <ul class="mt-2 text-center"
+                      style="list-style:none; z-index:3;  background: white;padding-left:0; position:absolute; ">
+                      <li><a href="#" style="text-decoration: none;color:black;">Instructor</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Instructor Profile</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Courses<svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg></a>
+                    <ul class="mt-2 text-center"
+                      style="list-style:none; z-index:3;  background: white;padding-left:0; position:absolute; ">
+                      <li><a href="#" style="text-decoration: none;color:black;">Courses List</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Courses Grid</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Courses Details</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Blog<svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                      </svg></a>
+                    <ul class="mt-2 text-center"
+                      style="list-style:none; z-index:3;  background: white;padding-left:0; position:absolute; ">
+                      <li><a href="#" style="text-decoration: none;color:black;">Blog Sidebar</a></li>
+                      <hr>
+                      <li><a href="#" style="text-decoration: none;color:black;">Blog Details</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <form class="d-flex"
+                  style="background-color: white;display:flex; border-radius:30px; height:50px; align-items:center; width:200px; padding:20px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-search"
+                    viewBox="0 0 16 16" style="margin-top: 3px; ">
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                  </svg>
+                  <input class="form-control me-2 " type="search" placeholder="  Search Courses " aria-label="Search"
+                    style="border: none; font-size:small;">
+                </form>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active SHOP" aria-current="page" href="#"
+                      style="background-color: #bbb; border-radius:50%;  display: inline-block;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                      </svg>
+                    </a>
+                    <a class="nav-link active SHOP" aria-current="page" href="#"
+                      style="background-color: #bbb; border-radius:50%;  display: inline-block;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-handbag"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z" />
+                      </svg></a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- home......etc -->
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- second row -->
+      <div class="row">
+        <div class="col">
+          <div class="col-lg-5" style="margin-top: 13rem; margin-left:2rem;">
+            <div class="">
+              <p> Learn New Skills & Popular Courses</p>
+              <h1 class=""><i>For Every Student, Every Classroom</i>.</h1>
+              <p>Dramatically supply transparent deliverables before backward
+                comp internal or "organic" sources. Competently leverage other.</p>
+            </div>
+            <div class="btn btn-lg btn-danger">
+              <a href="" style="text-decoration:none; color:whitesmoke">Explore Courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container section 1 end -->
+    <!-- container section 2 start-->
+    <div class="container-fluid"
+      style="background:url(https://thumbs.dreamstime.com/b/exquisite-white-paper-texture-your-new-project-work-high-resolution-photo-147268968.jpg); background-size: 73rem 40rem; background-repeat: no-repeat;">
+      <div class="row pt-5">
+        <div class="col">
+          <div class="text-center m-4 p-4">
+            <h4 style="color: red;">What we offer</h4>
+            <h1>For Your Future Learning.</h1>
+          </div>
+          <div class="card-group" style="padding-bottom:5rem;">
+            <div class="card shadow me-2 HOVER" style="border-radius: 15px;">
+              <button class="d-flex align-items-center justify-content-center btn"
+                style="border-radius:50%; width:30%; height:30%; background-color:rgb(2, 39, 2); margin-top:2rem; margin-left:2rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="75" fill="white" class="bi bi-calendar2-week"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path
+                    d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">Get Certificate</h5>
+                <p class="card-text">Interactively provide access world class materials for unique catalysts for change
+                  my
+                  ocardinat.</p>
+              </div>
+            </div>
+            <div class="card shadow ms-2 me-2 HOVER " style="border-radius: 15px;">
+              <button class="d-flex align-items-center justify-content-center btn"
+                style="border-radius:50%; width:30%; height:30%; background-color:rgb(2, 39, 2); margin-top:2rem; margin-left:2rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="75" fill="white" class="bi bi-calendar2-week"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path
+                    d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">Get Certificate</h5>
+                <p class="card-text">Interactively provide access world class materials for unique catalysts for change
+                  my
+                  ocardinat.</p>
+              </div>
+            </div>
+            <div class="card shadow ms-2 me-2 HOVER" style="border-radius: 15px;">
+              <button class="d-flex align-items-center justify-content-center btn"
+                style="border-radius:50%; width:30%; height:30%; background-color:rgb(2, 39, 2); margin-top:2rem; margin-left:2rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="75" fill="white" class="bi bi-calendar2-week"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path
+                    d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title">Get Certificate</h5>
+                <p class="card-text">Interactively provide access world class materials for unique catalysts for change
+                  my
+                  ocardinat.</p>
+              </div>
+            </div>
+            <div class="card shadow ms-2 HOVER" style="border-radius: 15px;">
+              <button class="d-flex align-items-center justify-content-center btn"
+                style="border-radius:50%; width:30%; height:30%; background-color:rgb(2, 39, 2); margin-top:2rem; margin-left:2rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="75" fill="white" class="bi bi-calendar2-week"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path
+                    d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>
+              </button>
+              <div class="card-body">
+                <h5 class="card-title ms-3">Life Time Access</h5>
+                <p class="card-text ms-3 me-2">Interactively provide access world class materials for unique catalysts
+                  for
+                  change my
+                  ocardinat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container section 2 end -->
+    <!-- container section 3 start -->
+    <div class="container-fluid "
+      style="background:url(https://wallpaperaccess.com/full/1556608.jpg); background-size: 73rem 40rem;background-repeat: no-repeat; ">
+      <div class="row ">
+        <div class="col-6">
+          <div class="ANI">
+            <img src="https://i.pinimg.com/736x/ec/06/c5/ec06c5139310705f3e3c59e207d3189a.jpg" alt=""
+              style="border-radius:100% 100% 0 0;  width:160px;height:150px; position:relative; top:12rem; left:30rem;">
+          </div>
+          <img src="https://thumbs.dreamstime.com/b/child-as-programmer-software-developer-nerd-computer-165816332.jpg"
+            alt="" style="width:500px;height:700px; border-radius:0 0 100% 100%">
+          <img src="https://png.pngitem.com/pimgs/s/524-5241945_students-free-study-in-italy-hd-png-download.png" alt=""
+            style="border-radius: 50%;position:relative;bottom:300px; left:320px;height:15rem;width:13rem;">
+        </div>
+        <div class="col-6">
+          <div style="margin-top: 350px; margin-left:60px;">
+            <h4 style="color: red;">About Our Courses</h4>
+            <h1 style="color: rgb(2, 2, 20);">Explore Thousands of Creative Classes.</h1>
+            <p>Dramatically supply transparent deliverables beforese backward comp internal or "organic" sources. Comp
+              transparent leverage other.
+            <p>
+              <button type="button" class="btn btn-danger">Read More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- container section 3 end -->
+    <!-- container section 4 start -->
+    <div class="container-fluid"
+      style="background:url(https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000); background-size: 73rem 40rem; background-repeat: no-repeat; padding-bottom:7rem; padding-top:2rem;">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Top Categories</h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col d-flex">
+          <div class="card mb-3 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex align-items-center justify-content-center flip-card-front">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-pencil-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Design Deve</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="red" class="bi bi-microsoft"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Development</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-mic-fill"
+                  viewBox="0 0 16 16">
+                  <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
+                  <path
+                    d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Marketing</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 flip-card " style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-nintendo-switch"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M9.34 8.005c0-4.38.01-7.972.023-7.982C9.373.01 10.036 0 10.831 0c1.153 0 1.51.01 1.743.05 1.73.298 3.045 1.6 3.373 3.326.046.242.053.809.053 4.61 0 4.06.005 4.537-.123 4.976-.022.076-.048.15-.08.242a4.136 4.136 0 0 1-3.426 2.767c-.317.033-2.889.046-2.978.013-.05-.02-.053-.752-.053-7.979Zm4.675.269a1.621 1.621 0 0 0-1.113-1.034 1.609 1.609 0 0 0-1.938 1.073 1.9 1.9 0 0 0-.014.935 1.632 1.632 0 0 0 1.952 1.107c.51-.136.908-.504 1.11-1.028.11-.285.113-.742.003-1.053ZM3.71 3.317c-.208.04-.526.199-.695.348-.348.301-.52.729-.494 1.232.013.262.03.332.136.544.155.321.39.556.712.715.222.11.278.123.567.133.261.01.354 0 .53-.06.719-.242 1.153-.94 1.03-1.656-.142-.852-.95-1.422-1.786-1.256Z" />
+                  <path
+                    d="M3.425.053a4.136 4.136 0 0 0-3.28 3.015C0 3.628-.01 3.956.005 8.3c.01 3.99.014 4.082.08 4.39.368 1.66 1.548 2.844 3.224 3.235.22.05.497.06 2.29.07 1.856.012 2.048.009 2.097-.04.05-.05.053-.69.053-7.94 0-5.374-.01-7.906-.033-7.952-.033-.06-.09-.063-2.03-.06-1.578.004-2.052.014-2.26.05Zm3 14.665-1.35-.016c-1.242-.013-1.375-.02-1.623-.083a2.81 2.81 0 0 1-2.08-2.167c-.074-.335-.074-8.579-.004-8.907a2.845 2.845 0 0 1 1.716-2.05c.438-.176.64-.196 2.058-.2l1.282-.003v13.426Z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">IT $ Software </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col d-flex">
+          <div class="card mb-3 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" fill="red"
+                  class="bi bi-camera-video-off-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M10.961 12.365a1.99 1.99 0 0 0 .522-1.103l3.11 1.382A1 1 0 0 0 16 11.731V4.269a1 1 0 0 0-1.406-.913l-3.111 1.382A2 2 0 0 0 9.5 3H4.272l6.69 9.365zm-10.114-9A2.001 2.001 0 0 0 0 5v6a2 2 0 0 0 2 2h5.728L.847 3.366zm9.746 11.925-10-14 .814-.58 10 14-.814.58z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Videography</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex flip-card-front align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-briefcase-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
+                  <path
+                    d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Business Sys</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 me-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-camera-fill"
+                  viewBox="0 0 16 16">
+                  <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                  <path
+                    d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Photography</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 ms-2 flip-card" style="width:17rem;">
+            <div class="row g-0">
+              <div class="col-md-4 flip-card-front d-flex align-items-center justify-content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="red" class="bi bi-reception-4"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z" />
+                </svg>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">Musical Intru</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- container section 4 end -->
+    <!-- container section 5 start -->
+    <div class="container-fluid"
+      style="background:url(https://wallpaperaccess.com/full/1556608.jpg); background-size: 73rem 40rem; background-repeat: no-repeat; padding-bottom:7rem; padding-top:4rem;">
+      <div class="row">
+        <div class="col ms-5">
+          <h1>Explore Popular Courses</h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-11.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Search Engine</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Marketing</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$40.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-3.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Design</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Development</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$55.02</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-6.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Design</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Marketing</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$15.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-10.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Design</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Marketing</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$15.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-7.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Coding</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Design</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$15.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="ZOO card h-100">
+                <img src="https://school.smartsoft.asia/wp-content/uploads/2022/08/course-9.jpg"
+                  class="card-img-top ZOOM" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#bbb"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                      </svg>
+                    </div>
+                    <div class="col-8 SHOP">
+                      course-avata How to Write Great Web Content – Better Search!
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-caret-right-square" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                      </svg>
+                      <p>0 lessons</p>
+                    </div>
+
+                    <div class="col-5 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+                      <p>0 Students</p>
+                    </div>
+                    <div class="col-2 d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-star-half"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Content Writing</button>
+                    </div>
+                    <div class="col-4">
+                      <button style="color: red; background-color:pink; border:none;">Design</button>
+                    </div>
+                    <div class="col-4">
+                      <h3>$39.00</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- container section 5 end -->
+  <!-- container section 5 start -->
+  <div class="container-fluid"
+    style="background:url(https://wallpaperaccess.com/full/1556608.jpg); background-size: 73rem 40rem; background-repeat: no-repeat; padding-bottom:7rem; padding-top:4rem;">
+    <div class="row">
+      <div class="col-7 CUT">
+        <img
+          src="https://university.apeejay.edu/images/Blog-7th-April-2022/drive_to_be_a_teacher.jpg"
+          alt="" style=" width:660px;height:700px ; position:relative;">
+      </div>
+      <div class="col-5" style="margin-top: 13rem;">
+        <h4 style="color: red;">Why Choose Us</h4>
+        <h1>Why You Choose Our E-Pora Online learning</h1>
+        <h6>Dramatically supply transparent deliverables before & can backward comp internal or "organic" sources.</h6>
+        <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>Increasing Your Learning Skills</h4>
+        <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>High Quality Video & Audio Classes</h4>
+        <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>Finish Your Course, Get Certificate</h4>
+        <button type="button" class="btn btn-danger mt-5">Explore Courses</button>
+      </div>
+    </div>
+  </div>
+  <!-- container section 5 END -->
+  </div>
+
+
+
+
+
+
+  <!-- dfghjk -->
+
+  <!--  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="{% static 'enroll/js/all.min.js' %}"></script>
+
+</body>
+
+</html>

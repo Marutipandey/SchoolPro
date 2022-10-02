@@ -1,0 +1,92 @@
+/* only hove */
+ul li :hover{
+    background: red;
+}
+
+/*  */ 
+ul ul{
+    display: none;
+}
+
+.SHOP:hover{
+    background-color: red !important;
+}
+
+ul li:hover > ul{
+    display: block;
+    
+}
+
+/*  */
+.HOVER .btn {
+    
+    transition: transform 250ms;
+  }
+  
+  .HOVER:hover .btn{
+    background-color: red !important;
+    transform: translateY(-10px);
+  }
+ 
+ 
+
+/*  */
+.ANI {
+    transform: rotate(-345deg);
+}
+.ANI img {
+    animation: float 3s linear infinite;
+}
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
+}
+ 
+ /*  */
+ .flip-card {
+    perspective: 400px;
+    /* background-size: cover;
+    transition: 5s linear; */
+  }
+  
+   .flip-card-front {
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  } 
+  
+  .flip-card:hover .flip-card-front {
+    transform: rotateY(180deg);
+  }
+  
+
+ /*  */
+
+ .ZOOM{
+    transition: transform .2s;
+ }
+ .ZOO:hover .ZOOM{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  /*  */
+  .CUT{
+    clip-path: polygon(
+        0 0,
+        0 0,
+        70% 0,
+        100% 30%,
+        100% 100%,
+        0% 100%,
+        0% 100%,
+        0% 100%,
+        0 0
+      )
+  }
